@@ -28,7 +28,7 @@ The features are: x_0: days since all time peak searches, x_1: all time peak in 
 I trained a SVM classifier based on __[RankSVM](www.cs.cornell.edu/~tj/publications/joachims_02c.pdf)__. On a witheld test set, the trained model had an 
 F1 score of: 0.9669968469439774
 
-[rankSVMmodel.ipynb](rankSVMmodel.ipynb)
+[nov_predict.ipynb](nov_predict.ipynb)
 
 Then using an __[algorithm to fit a Bradley-Terry Model](https://projecteuclid.org/euclid.aos/1079120141)__, the games can be ranked. 
 For example, here are predicted rankings for the (at the time) unreleased rankings for November:
